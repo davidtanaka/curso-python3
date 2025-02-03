@@ -7,8 +7,11 @@ e se a "saúde" da família aumenta ou diminui.
 - Confirmando os 2: TV 50' + Sorvete
 - Confirmando apenas 1: TV 32' + Sorvete
 - Nenhum confirmado: Fica em casa
+
+Esse desafio deve ser feito usando apenas o 'aprendido' até então.
 """
 
+# Minha solução
 tarefa_terca = False
 tarefa_quinta = True
 
