@@ -5,7 +5,7 @@ import sys
 def circulo():
     area_pi = pi
     if len(sys.argv) < 2:
-        print('É necessário informar o raio,\n Sintaxe: area_ciraculo <raio>')
+        print(f'É necessário informar o raio,\n Sintaxe: {sys.argv[0]} <raio>')
     else:
         raio = int(sys.argv[1])
         resultado = area_pi * raio ** 2
