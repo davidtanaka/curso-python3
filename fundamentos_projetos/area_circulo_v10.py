@@ -10,4 +10,4 @@ def circulo():
 
 
 if __name__ =='__main__':
-    print('A área do circulo igual é: ', circulo())
+    print('A área do circulo é: ', circulo())
