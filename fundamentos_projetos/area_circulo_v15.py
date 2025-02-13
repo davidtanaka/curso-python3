@@ -3,6 +3,11 @@ import sys
 import errno
 
 
+class TerminalColor:
+    ERRO = '\033[91m'
+    NORMAL = '\033[0m'
+
+
 def help():
     return(f'É necessário informar o raio,\n Sintaxe: {sys.argv[0]} <raio>')
 
@@ -15,7 +20,11 @@ def circulo():
 
     if not sys.argv[1].isnumeric():
         print(help())
-        print('O raio deve ser um valor númerico')
+        print(
+            TerminalColor.ERRO + 
+            'O raio deve ser um valor númerico'
+            + TerminalColor.NORMAL
+        )
         sys.exit(errno.EINVAL)
     else:
         raio = int(sys.argv[1])
