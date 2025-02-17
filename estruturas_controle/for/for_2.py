@@ -28,7 +28,7 @@ print()
 # Set
 for letra in set('Muito legal'):
     print(letra)
-print()
+print()   
 
 for numero in {1, 2, 3, 4, 5, 6}:
     print(numero)
