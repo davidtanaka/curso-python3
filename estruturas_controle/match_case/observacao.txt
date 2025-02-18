@@ -1,5 +1,5 @@
-Na época em que este curso foi gravado, o Python ainda não possuía suporte para switch/case.  
+Na época em que este curso foi gravado, o Python ainda não possuía suporte para match/case.  
 Por esse motivo, o professor optou por simular essa estrutura utilizando outras abordagens.  
 
 No entanto, como já possuo conhecimento em Python e este curso serve como uma revisão para mim,  
-decidi implementar a solução utilizando switch/case por conta própria.  
+decidi implementar a solução utilizando match/case por conta própria.  
