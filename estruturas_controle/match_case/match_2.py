@@ -6,26 +6,42 @@
 # se é um dia de meio de semana ou de fim de semana
 
 # Minha solução (atualizada)
+# def dia_semana(dia):
+#     match dia:
+#         case 'sabado':
+#             print('Hoje é Fim de semana')
+#         case 'domingo':
+#             print('Hoje é Fim de semana')
+#         case 'segunda':
+#             print('Hoje é meio de semana')
+#         case 'terca':
+#             print('Hoje é meio de semana')
+#         case 'quarta':
+#             print('Hoje é meio de semana')
+#         case 'quinta':
+#             print('Hoje é meio de semana')
+#         case 'sexta':
+#             print('Hoje é meio de semana')
+#         case _:
+#             print('Digite um dia válido')
+
+# dia_semana(input('Digite o dia da semana: (letras minúsculas e sem acentos): '))
+
 def dia_semana(dia):
     match dia:
-        case 'sabado':
-            print('Hoje é Fim de semana')
-        case 'domingo':
-            print('Hoje é Fim de semana')
-        case 'segunda':
-            print('Hoje é meio de semana')
-        case 'terca':
-            print('Hoje é meio de semana')
-        case 'quarta':
-            print('Hoje é meio de semana')
-        case 'quinta':
-            print('Hoje é meio de semana')
-        case 'sexta':
-            print('Hoje é meio de semana')
+        case 2 | 3 | 4 | 5 | 6 :
+            return 'Dia de semana'
+        case 1 | 7:
+            return 'Fim de semana'
         case _:
-            print('Digite um dia válido')
+            return '** inválido **'
+            
+ 
+ 
+if __name__ == '__main__':
+    for dia in range(0, 9):
+        print(f'{dia}: {dia_semana(dia)}')
 
-dia_semana(input('Digite o dia da semana: (letras minúsculas e sem acentos): '))
 
 
 # Solução professor
