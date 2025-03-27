@@ -7,5 +7,5 @@ def novo_nome():
     "Davi", "João", "Pedro", "Matheus", "Gustavo", "Felipe",
     "Vinícius", "Eduardo", "Henrique", "Rafael", "Daniel", "Enzo"
     ]
-    nome_aleatorio = nomes[randint(0, len(nomes))]
+    nome_aleatorio = nomes[randint(0, len(nomes)-1)]
     return nome_aleatorio
