@@ -1,12 +1,6 @@
 from datetime import datetime
 
 
-
-class Projeto:
-    def __init__(self, nome):
-        self.nome = nome
-        self.tarefas = []
-
 class Tarefa:
     def __init__(self, descricao):
         self.descricao = descricao
